@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buscar contactos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box_perfiles" id="box_perfiles">
+
+    </div>
+    <div class="box">
+        <h1>buscador de contactos</h1>
+        <div class="sub_box">
+            <div class="escribir">
+                <label for="nombre">nombre</label><input type="text" id="user" >
+                <label for="propiedad"></label>
+                <select  id="propiedades"> 
+                    <option value="elige">elige</option>
+                    <option value="gustos">gustos</option>
+                    <option value="numero">numero</option>
+                    <option value="apellido">apellido</option>
+                 
+                    
+                </select>
+                <div class="btn">
+                    <button id="buscar">buscar</button>
+                    <a href="./añadir.html"><button id="aceptar">agregar</button></a> 
+
+                </div>
+            </div>
+            <div class="perfil" id="perfil">
+                <img src="https://www.shutterstock.com/image-vector/vector-illustration-male-silhouette-profile-260nw-1053115607.jpg" alt="">
+
+            </div>
+        </div>
+        <div id="display"></div>
+    </div>
+    <script  src="./contactos.js" ></script>
+    <script   defer src="./main.js" type="module"></script>
+
+   
+    
+</body>
+</html>
