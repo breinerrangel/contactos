@@ -17,7 +17,7 @@ if(localStorage.getItem("contactos")!=null){
 else{
     personas=contactos
 }
-console.log(personas[7])
+
 
 
 buscar.addEventListener("click",function(){
@@ -54,3 +54,4 @@ buscar.addEventListener("click",function(){
 personas.forEach(imagen=>{
     box_perfiles.innerHTML+=` <img src="${imagen.foto}" alt="">`
 })
+
